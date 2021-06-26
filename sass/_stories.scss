@@ -1,0 +1,134 @@
+/*
+.stories {
+    //grid-column: center-start / center-end;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 2em;
+    margin: 5rem 5rem;
+}   
+*/
+
+.stories{
+    //margin: 10rem;
+    background-color: $color-grey-light-1;
+    display: grid;
+    //grid-auto-columns: 
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, auto));
+
+}
+.story{
+    display: flex;
+    min-width:50rem;
+    min-height:65rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
+    padding: 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+  &__label{
+        margin: 1rem 0rem;
+        background-color:  #FFDD2D;
+        border-radius: 35%;
+        font-size:1.5rem;            
+        height:3rem;
+        width:10rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__header{
+        color:white;
+        font-weight: 900;
+        font-size: 3.7rem;
+        font-family: $font-display;
+        //align-self: center;
+        //width:10rem;
+    }
+
+    &__text{
+        color:white;
+        font-weight: 400;
+        font-size: 2.0rem;
+        font-family: $font-primary;
+    }
+
+    &__subcard{
+        position:relative;
+        background-color: white;
+        border-radius: 25%;
+        margin-top:7rem;
+        margin-left:2rem;
+        margin-bottom: 7rem;
+        padding: 2rem 2rem;
+        display: flex;
+
+        &__photo{
+            width:8rem;
+            height:8rem;
+            border-radius: 50%;
+        }
+        
+        &__caption{
+            margin-left:1rem;
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+        }
+
+        &__header{
+            font-weight: 500;
+            font-size:2rem;
+        }
+        &__text{
+            font-weight: 400;
+            font-size:1.6rem;
+            z-index:100;
+        }
+        
+        &__fig_1{
+            width:15rem;
+            height:15rem;
+            //z-index: ;
+            position:absolute;
+            top:-9rem;
+            left:-4rem;
+         
+        }
+
+        &__fig_2{
+            width:15rem;
+            height:15rem;
+            //z-index: ;
+            position:absolute;
+            top:-9rem;
+            left:calc(100% - 15rem);
+         
+        }
+
+        &__fig_3{
+            width:15rem;
+            height:15rem;
+            z-index: 2 ;
+            position:absolute;
+            top:45%;
+            left:calc(100% - 15rem);         
+        }
+
+    }
+    &__fig_2{
+        width:30rem;
+        height:30rem;
+        position:absolute;
+        bottom:-12rem;
+        left:-10rem;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+    }
+
+}
+
