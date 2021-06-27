@@ -1,13 +1,3 @@
-/*
-.stories {
-    //grid-column: center-start / center-end;
-    display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-gap: 2em;
-    margin: 5rem 5rem;
-}   
-*/
-
 .stories{
     //margin: 10rem;
     background-color: $color-grey-light-1;
@@ -19,7 +9,7 @@
 }
 .story{
     display: flex;
-    min-width:50rem;
+    min-width:45rem;
     min-height:65rem;
     flex-direction: column;
     justify-content: space-between;
@@ -28,7 +18,7 @@
     padding: 2rem 2rem;
     position: relative;
     overflow: hidden;
-  &__label{
+  &__label{ 
         margin: 1rem 0rem;
         background-color:  #FFDD2D;
         border-radius: 35%;
@@ -106,7 +96,7 @@
             //z-index: ;
             position:absolute;
             top:-9rem;
-            left:calc(100% - 15rem);
+            right:0rem;
          
         }
 
@@ -116,7 +106,7 @@
             z-index: 2 ;
             position:absolute;
             top:45%;
-            left:calc(100% - 15rem);         
+            right: 0rem;         
         }
 
     }
