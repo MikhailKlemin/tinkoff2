@@ -1,2 +1,3 @@
-Отклик на [вакансию](https://vc.ru/tinkoff/262140-verstalshchik-storis-v-tinkoff-biznes) Тинькофф. 
-К сожалению я не понял что имелось ввиду под бекграундом, и сделал без него, пришлось развешивать кубики, флексбоксить. Результат [здесь](https://mikhailklemin.github.io/tinkoff2/dest/)
+Отклик на [вакансию](https://vc.ru/tinkoff/262140-verstalshchik-storis-v-tinkoff-biznes) 
+
+Work in progress.
